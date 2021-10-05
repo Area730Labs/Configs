@@ -1,0 +1,50 @@
+{
+    "items":[
+        {
+            "name": "grim",
+            "filter": {
+                "name_contains":"grim"
+            },
+            "price_less_than": 7,
+            "notify_channels":[
+              "list_tg_group"
+            ]
+        },
+        {
+            "name": "cub",
+            "filter": {
+                "name_contains":"cub"
+            },
+            "price_less_than": 3,
+            "notify_channels":[
+              "list_tg_group"
+            ]
+        },
+        {
+            "name": "sloth",
+            "filter": {
+                "name_contains":"sloth"
+            },
+            "price_less_than": 3,
+            "notify_channels":[
+              "list_tg_group"
+            ]
+        },
+        {
+            "name": "casset",
+            "filter": {
+                "name_contains":"casset"
+            },
+            "price_less_than": 6,
+            "notify_channels":[
+              "list_tg_group"
+            ]
+        }
+    ],
+    "notification_channels":{
+        "list_tg_group": {
+            "type":"telegram",
+            "value":"-477548683"
+        }
+    }
+}
